@@ -35,7 +35,7 @@ public class InputHandler
             player.rb2d.AddForce(Vector2.up*player.jumpForce);
             player.SetState(Global.JUMP_STATE);
         }
-        if (Input.GetKeyDown(KeyCode.Q) && player.isGround)
+        if (Input.GetKeyDown(KeyCode.Q) )
         {
             
             player.SetState(Global.ATTACK_STATE);

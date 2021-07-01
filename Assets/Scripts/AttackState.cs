@@ -20,7 +20,7 @@ public class AttackState : BaseState
 
     public override void onEnter(Character character)
     {
-        
+        character.getAnimator().SetInteger("state",Global.ATTACK_STATE);
     }
 
     public override void onUpdate(float dt)
